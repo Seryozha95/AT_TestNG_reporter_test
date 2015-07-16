@@ -47,7 +47,7 @@ public class TestReporter {
 			System.out.println("-----" + i + "----");
 		}
 		throw new Exception(
-				"[AT Test] Get campaign call returned 290 but expected 201");
+				"[AT Test] Get campaign call returned 400 but expected 201");
 	}
 
 	@Test(description = "TTT_CMP_002")
@@ -64,6 +64,6 @@ public class TestReporter {
 			System.out.println("-----" + i + "----");
 		}
 		throw new Exception(
-				"[AT test] Get campaign call returned 290 but expected 201 Authorization");
+				"[AT test] Get campaign call returned 400 but expected 201 Authorization");
 	}
 }
