@@ -45,7 +45,7 @@
 		</plugins>
 	</build>
 	<repositories>
-	
+		<!--
 		<repository>
 			<id>social-maven-repo</id>
 			<name>Social-Artifactory Virtual Repository</name>
@@ -59,7 +59,7 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
-			
+		-->
 		</repositories>
 	<dependencies>
 		<dependency>
